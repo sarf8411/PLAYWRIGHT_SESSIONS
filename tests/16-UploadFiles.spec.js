@@ -23,7 +23,7 @@ test.only("Upload Multiple FIles", async({page}) => {
       await page.locator('#filesToUpload')
                         .setInputFiles(['tests/Simple_Template1.pdf', 'tests/Simple_Template2.pdf'])
     
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(3000);
     
     
     })
