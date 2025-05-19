@@ -16,7 +16,7 @@ await page.waitForTimeout(5000);
 
 })
 
-test.only("Upload Multiple FIles", async({page}) => {
+test("Upload Multiple FIles", async({page}) => {
 
     await page.goto('https://davidwalsh.name/demo/multiple-file-upload.php');
     

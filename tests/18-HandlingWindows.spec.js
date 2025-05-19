@@ -1,6 +1,6 @@
 const {test, expect, chromium} = require('@playwright/test');
 
-test.only('Handling Pages/Windows', async () => {
+test('Handling Pages/Windows', async () => {
 
     const browser = await chromium.launch({headless: false});
     const context = await browser.newContext();
